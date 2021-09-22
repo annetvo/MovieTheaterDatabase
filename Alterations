@@ -1,0 +1,19 @@
+ALTER TABLE customer
+ADD email VARCHAR(150);
+
+UPDATE customer
+SET email='spongepantssquarebob@krustykrab.com'
+WHERE customer_id = 1;
+
+UPDATE customer
+SET email='starpatty@krustykrab.com'
+WHERE customer_id = 2;
+
+UPDATE customer
+SET email='claranetpro@krustykrab.com'
+WHERE customer_id = 3;
+
+SELECT *
+FROM customer
+
+
